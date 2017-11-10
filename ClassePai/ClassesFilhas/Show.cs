@@ -33,13 +33,13 @@ namespace ProjetoEvento.ClassePai.ClassesFilhas
                 //TRABALHAR COM STREAMWRITER É CRÍTICO: ELE SÓ CONSEGUE TRABALHAR SE PASSAR O NOME DO ARQUIVO, NÃO PODE SER UM CONSTRUTOR SIMPLES.
 
                 arquivo.WriteLine(//escrever no "arquivo" - NÃO NO CONSOLE
-                    Titulo + "," +
-                    Local + "," +
-                    Duracao + "," +
-                    Data + "," +
-                    Artista + "," +
-                    GeneroMusical + "," +
-                    Lotacao + "," +
+                    Titulo + ";" +
+                    Local + ";" +
+                    Duracao + ";" +
+                    Data + ";" +
+                    Artista + ";" +
+                    GeneroMusical + ";" +
+                    Lotacao + ";" +
                     Classificacao);
                     //aqui, o "Titulo" por ex pode ser BASE, THIS ou nada.
                     //"Artista" e "GeneroMusical", não.
